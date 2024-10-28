@@ -66,11 +66,12 @@
           <img class="card-img-top" src="<?= $product['cover'] ?>" alt="Product Image"> 
             <div class="card-body">
               <h5 class="card-title"><?= ($product['name']) ?></h5>
-              <p class="card-text"><?= ($product['description']) ?></p>
+
+              <a href="descripcion.php?slug=<?= $product['slug'] ?>" class="btn btn-primary">Ver descripción</a>
             </div>
             
             <div class="card-text d-flex justify-content-between">
-              <a href="#" class="btn btn-warning">Ver detalles</a>
+
             </div>
           </div>
         </div>
